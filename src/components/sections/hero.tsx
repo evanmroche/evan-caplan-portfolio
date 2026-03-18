@@ -5,7 +5,7 @@ export function Hero() {
         Evan Caplan
       </h1>
       <p className="mt-4 text-lg md:text-xl text-muted-foreground tracking-widest uppercase animate-fade-up animate-delay-200">
-        Video Editor &middot; Graphic Designer &middot; Storyteller
+        Video Editor &middot; Graphic Designer
       </p>
       <div className="mt-8 h-px w-24 bg-primary/50 animate-fade-in animate-delay-400" />
     </section>
