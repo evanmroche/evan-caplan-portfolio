@@ -27,7 +27,7 @@ export function NavLinks() {
             key={link.href}
             href={link.href}
             className={cn(
-              "nav-link-underline relative px-4 py-2 text-sm font-medium tracking-wide uppercase transition-colors",
+              "nav-link-underline relative px-4 py-2 text-sm font-bold tracking-wide uppercase transition-colors",
               isActive
                 ? "text-primary active"
                 : "text-foreground/70 hover:text-foreground"

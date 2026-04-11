@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# raw graphic-design source assets (processed into public/graphic-design/ by scripts/optimize-graphic-design.mjs)
+/graphic-design/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

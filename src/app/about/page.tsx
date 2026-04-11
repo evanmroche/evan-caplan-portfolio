@@ -1,3 +1,15 @@
+const socialLinks = [
+  { label: "Instagram", href: "https://www.instagram.com/obsk.ura/" },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/evan-caplan-040104251/",
+  },
+  { label: "Vimeo", href: "https://vimeo.com/user254547779?fl=pp&fe=sh" },
+];
+
+const socialButtonClass =
+  "inline-flex items-center justify-center h-7 px-2.5 text-[0.8rem] font-medium rounded-[min(var(--radius-md),12px)] border border-border/50 bg-background text-foreground transition-all hover:border-primary/50 hover:text-primary hover:bg-muted focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring/50";
+
 export default function AboutPage() {
   return (
     <section className="py-24 md:py-32 px-6 md:px-10 max-w-3xl mx-auto">
@@ -24,6 +36,20 @@ export default function AboutPage() {
         </p>
       </div>
       <div className="mt-8 h-px w-24 bg-primary/50 animate-fade-in animate-delay-400" />
+
+      <div className="mt-10 flex flex-wrap gap-3 animate-fade-up animate-delay-500">
+        {socialLinks.map((link) => (
+          <a
+            key={link.label}
+            href={link.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={socialButtonClass}
+          >
+            {link.label}
+          </a>
+        ))}
+      </div>
     </section>
   );
 }

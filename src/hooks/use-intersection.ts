@@ -6,6 +6,9 @@ export function useIntersection(options?: IntersectionObserverInit) {
   const ref = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
+  const threshold = options?.threshold ?? 0.15;
+  const rootMargin = options?.rootMargin;
+
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
@@ -17,12 +20,12 @@ export function useIntersection(options?: IntersectionObserverInit) {
           observer.unobserve(el);
         }
       },
-      { threshold: 0.15, ...options }
+      { threshold, rootMargin },
     );
 
     observer.observe(el);
     return () => observer.disconnect();
-  }, [options]);
+  }, [threshold, rootMargin]);
 
   return { ref, isVisible };
 }

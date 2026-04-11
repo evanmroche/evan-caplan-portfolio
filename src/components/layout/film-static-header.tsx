@@ -1,44 +1,36 @@
-"use client";
+import Image from "next/image";
 
-import { useEffect, useState } from "react";
 import { NavLinks } from "./nav-links";
 
 export function FilmStaticHeader() {
-  const [videoExists, setVideoExists] = useState(false);
-
-  useEffect(() => {
-    fetch("/videos/film-static.mp4", { method: "HEAD" })
-      .then((res) => {
-        if (res.ok) setVideoExists(true);
-      })
-      .catch(() => {});
-  }, []);
-
   return (
-    <header className="relative h-16 shrink-0 overflow-hidden">
-      {/* Background: video or animated gradient fallback */}
-      {videoExists ? (
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src="/videos/film-static.mp4" type="video/mp4" />
-        </video>
-      ) : (
-        <div className="absolute inset-0 film-grain bg-gradient-to-r from-[oklch(0.10_0.005_260)] via-[oklch(0.15_0.01_270)] to-[oklch(0.10_0.005_260)]" />
-      )}
+    <header className="relative h-16 shrink-0 overflow-hidden bg-background">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        aria-hidden="true"
+        className="absolute inset-0 h-full w-full object-cover"
+      >
+        <source src="/videos/topbar.mp4" type="video/mp4" />
+      </video>
 
-      {/* Dark overlay for readability */}
-      <div className="absolute inset-0 bg-black/50 z-[2]" />
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 z-[2] bg-[linear-gradient(to_right,black_0%,transparent_50%,black_100%)]"
+      />
 
-      {/* Nav overlay */}
-      <div className="relative z-[3] flex items-center justify-between h-full px-6 md:px-10">
-        <span className="font-display text-2xl tracking-wider text-primary">
-          EC
-        </span>
+      <div className="relative z-[3] flex items-center justify-between h-full px-6 md:px-10 [&_img]:[filter:drop-shadow(0_4px_6px_rgba(0,0,0,1))_drop-shadow(0_8px_20px_rgba(0,0,0,0.95))] [&_a]:[filter:drop-shadow(0_4px_6px_rgba(0,0,0,1))_drop-shadow(0_8px_20px_rgba(0,0,0,0.95))]">
+        <Image
+          src="/signature.png"
+          alt="Evan Caplan"
+          width={2438}
+          height={1088}
+          priority
+          className="h-[4.375rem] w-auto"
+        />
         <NavLinks />
       </div>
     </header>

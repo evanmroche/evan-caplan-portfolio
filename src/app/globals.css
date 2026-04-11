@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -56,18 +54,18 @@
   --card-foreground: oklch(0.95 0.01 80);
   --popover: oklch(0.16 0.005 260);
   --popover-foreground: oklch(0.95 0.01 80);
-  --primary: oklch(0.75 0.15 75);
-  --primary-foreground: oklch(0.13 0.005 260);
+  --primary: oklch(0.52 0.22 27);
+  --primary-foreground: oklch(0.98 0.01 80);
   --secondary: oklch(0.20 0.005 260);
   --secondary-foreground: oklch(0.95 0.01 80);
   --muted: oklch(0.20 0.005 260);
   --muted-foreground: oklch(0.65 0.01 80);
-  --accent: oklch(0.75 0.15 75);
-  --accent-foreground: oklch(0.13 0.005 260);
+  --accent: oklch(0.52 0.22 27);
+  --accent-foreground: oklch(0.98 0.01 80);
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 12%);
-  --ring: oklch(0.75 0.15 75);
+  --ring: oklch(0.52 0.22 27);
   --radius: 0.5rem;
 }
 
@@ -78,18 +76,18 @@
   --card-foreground: oklch(0.95 0.01 80);
   --popover: oklch(0.16 0.005 260);
   --popover-foreground: oklch(0.95 0.01 80);
-  --primary: oklch(0.75 0.15 75);
-  --primary-foreground: oklch(0.13 0.005 260);
+  --primary: oklch(0.52 0.22 27);
+  --primary-foreground: oklch(0.98 0.01 80);
   --secondary: oklch(0.20 0.005 260);
   --secondary-foreground: oklch(0.95 0.01 80);
   --muted: oklch(0.20 0.005 260);
   --muted-foreground: oklch(0.65 0.01 80);
-  --accent: oklch(0.75 0.15 75);
-  --accent-foreground: oklch(0.13 0.005 260);
+  --accent: oklch(0.52 0.22 27);
+  --accent-foreground: oklch(0.98 0.01 80);
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.75 0.15 75);
+  --ring: oklch(0.52 0.22 27);
 }
 
 /* ── Base resets ── */
