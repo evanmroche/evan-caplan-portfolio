@@ -1,0 +1,86 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - img "Evan Caplan" [ref=e6]
+      - navigation [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Video" [ref=e9] [cursor=pointer]:
+          - /url: /video-projects
+        - link "Design" [ref=e10] [cursor=pointer]:
+          - /url: /graphic-design
+        - link "About" [ref=e11] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - heading "Video Projects" [level=1] [ref=e23]
+      - generic [ref=e26]:
+        - figure "Thriftcon NYC :60 View on Vimeo" [ref=e27]:
+          - generic [ref=e28]:
+            - img "Thriftcon NYC :60" [ref=e29]
+            - generic:
+              - generic:
+                - img
+                - generic: Thriftcon NYC :60
+          - generic [ref=e31]:
+            - generic [ref=e32]: Thriftcon NYC :60
+            - link "View on Vimeo" [ref=e33] [cursor=pointer]:
+              - /url: https://vimeo.com/1181461866
+        - figure "Thriftcon NYC View on Vimeo" [ref=e34]:
+          - generic [ref=e35]:
+            - img "Thriftcon NYC" [ref=e36]
+            - generic:
+              - generic:
+                - img
+                - generic: Thriftcon NYC
+          - generic [ref=e38]:
+            - generic [ref=e39]: Thriftcon NYC
+            - link "View on Vimeo" [ref=e40] [cursor=pointer]:
+              - /url: https://vimeo.com/1181451985
+        - figure "Thriftcon LA View on Vimeo" [ref=e41]:
+          - generic [ref=e42]:
+            - img "Thriftcon LA" [ref=e43]
+            - generic:
+              - generic:
+                - img
+                - generic: Thriftcon LA
+          - generic [ref=e45]:
+            - generic [ref=e46]: Thriftcon LA
+            - link "View on Vimeo" [ref=e47] [cursor=pointer]:
+              - /url: https://vimeo.com/1181427880
+        - figure "6.99 Deal Feed The Crew :30 View on Vimeo" [ref=e48]:
+          - generic [ref=e49]:
+            - img "6.99 Deal Feed The Crew :30" [ref=e50]
+            - generic:
+              - generic:
+                - img
+                - generic: 6.99 Deal Feed The Crew :30
+          - generic [ref=e52]:
+            - generic [ref=e53]: 6.99 Deal Feed The Crew :30
+            - link "View on Vimeo" [ref=e54] [cursor=pointer]:
+              - /url: https://vimeo.com/1165866674
+        - figure "WILDCOAT Reviews Social View on Vimeo" [ref=e55]:
+          - generic [ref=e56]:
+            - img "WILDCOAT Reviews Social" [ref=e57]
+            - generic:
+              - generic:
+                - img
+                - generic: WILDCOAT Reviews Social
+          - generic [ref=e58]:
+            - generic [ref=e59]: WILDCOAT Reviews Social
+            - link "View on Vimeo" [ref=e60] [cursor=pointer]:
+              - /url: https://vimeo.com/1164147421
+        - figure "WILDCOAT POV Social View on Vimeo" [ref=e61]:
+          - generic [ref=e62]:
+            - img "WILDCOAT POV Social" [ref=e63]
+            - generic:
+              - generic:
+                - img
+                - generic: WILDCOAT POV Social
+          - generic [ref=e64]:
+            - generic [ref=e65]: WILDCOAT POV Social
+            - link "View on Vimeo" [ref=e66] [cursor=pointer]:
+              - /url: https://vimeo.com/1164147189
+  - button "Open Next.js Dev Tools" [ref=e72] [cursor=pointer]:
+    - img [ref=e73]
+  - alert [ref=e76]
