@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { NavLinks } from "./nav-links";
+import { MobileMenu } from "./mobile-menu";
 
 export function FilmStaticHeader() {
   return (
@@ -29,9 +30,12 @@ export function FilmStaticHeader() {
           width={2438}
           height={1088}
           priority
-          className="h-[4.375rem] w-auto"
+          className="h-12 md:h-[4.375rem] w-auto"
         />
-        <NavLinks />
+        <div className="hidden md:flex">
+          <NavLinks />
+        </div>
+        <MobileMenu />
       </div>
     </header>
   );

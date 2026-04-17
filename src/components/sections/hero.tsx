@@ -116,7 +116,7 @@ export function Hero() {
 
               <ArrowRight
                 aria-hidden
-                className="relative ml-auto self-center h-5 w-5 md:h-6 md:w-6 text-muted-foreground transition-all duration-300 group-hover:translate-x-2 group-hover:text-primary"
+                className="relative ml-auto self-center h-5 w-5 md:h-6 md:w-6 text-muted-foreground transition-colors duration-300 group-hover:text-primary"
               />
             </Link>
           ))}
