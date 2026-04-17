@@ -1,0 +1,167 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - img "Evan Caplan" [ref=e6]
+      - navigation [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Video" [ref=e10] [cursor=pointer]:
+          - /url: /video-projects
+        - link "Design" [ref=e11] [cursor=pointer]:
+          - /url: /graphic-design
+        - link "About" [ref=e12] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - heading "Graphic Design" [level=1] [ref=e24]
+      - generic [ref=e26]:
+        - button "Open theGoodWord" [ref=e27]:
+          - img "theGoodWord" [ref=e28]
+        - button "Open Weird Obscure shit" [ref=e29]:
+          - img "Weird Obscure shit" [ref=e30]
+        - button "Open WHYB" [ref=e31]:
+          - img "WHYB" [ref=e32]
+        - 'button "Open WHO AM I ##" [ref=e33]':
+          - 'img "WHO AM I ##" [ref=e34]'
+        - button "Open TypoLOST" [ref=e35]:
+          - img "TypoLOST" [ref=e36]
+        - button "Open Typeographyfuckery" [ref=e37]:
+          - img "Typeographyfuckery" [ref=e38]
+        - button "Open Tunnel V1 Square" [ref=e39]:
+          - img "Tunnel V1 Square" [ref=e40]
+        - button "Open TubGirl" [ref=e41]:
+          - img "TubGirl" [ref=e42]
+        - button "Open ThisBarVHS" [ref=e43]:
+          - img "ThisBarVHS" [ref=e44]
+        - button "Open TEXT BLEED FINAL" [ref=e45]:
+          - img "TEXT BLEED FINAL" [ref=e46]
+        - button "Open Subway FINAL" [ref=e47]:
+          - img "Subway FINAL" [ref=e48]
+        - button "Open Splotch Abstract" [ref=e49]:
+          - img "Splotch Abstract" [ref=e50]
+        - button "Open SUBWAY STATION GRADIENT FINAL" [ref=e51]:
+          - img "SUBWAY STATION GRADIENT FINAL" [ref=e52]
+        - button "Open SOMBR Sitting" [ref=e53]:
+          - img "SOMBR Sitting" [ref=e54]
+        - button "Expand smoker-gradient series, 2 pieces" [ref=e56] [cursor=pointer]:
+          - img "SMOKER GRADIENT FINAL" [ref=e59]
+          - generic [ref=e60]: 2 pieces
+        - button "Open SK8 Life 2 FINAL" [ref=e61]:
+          - img "SK8 Life 2 FINAL" [ref=e62]
+        - button "Open SCAN GRADIENT FRIENDS FINAL" [ref=e63]:
+          - img "SCAN GRADIENT FRIENDS FINAL" [ref=e64]
+        - button "Open SAQUON SCAN LINES FINAL" [ref=e65]:
+          - img "SAQUON SCAN LINES FINAL" [ref=e66]
+        - button "Expand room-poster series, 2 pieces" [ref=e68] [cursor=pointer]:
+          - img "Room Poster 2" [ref=e71]
+          - generic [ref=e72]: 2 pieces
+        - button "Open Roman Statue" [ref=e73]:
+          - img "Roman Statue" [ref=e74]
+        - button "Open Role Model1 FINAL REAL" [ref=e75]:
+          - img "Role Model1 FINAL REAL" [ref=e76]
+        - button "Open RecordLady" [ref=e77]:
+          - img "RecordLady" [ref=e78]
+        - button "Open QUEENSGAMBIT" [ref=e79]:
+          - img "QUEENSGAMBIT" [ref=e80]
+        - button "Open PFP SCANNED FINAL" [ref=e81]:
+          - img "PFP SCANNED FINAL" [ref=e82]
+        - button "Open PFP MAYBE" [ref=e83]:
+          - img "PFP MAYBE" [ref=e84]
+        - button "Open OBSK PFP EDITED FINAL" [ref=e85]:
+          - img "OBSK PFP EDITED FINAL" [ref=e86]
+        - button "Open Mountainmirror" [ref=e87]:
+          - img "Mountainmirror" [ref=e88]
+        - button "Open MexicopaintingREDO" [ref=e89]:
+          - img "MexicopaintingREDO" [ref=e90]
+        - button "Open MIRROR GLASS FINAL" [ref=e91]:
+          - img "MIRROR GLASS FINAL" [ref=e92]
+        - button "Open MASKED GRADIENT ONLY WHEN2" [ref=e93]:
+          - img "MASKED GRADIENT ONLY WHEN2" [ref=e94]
+        - button "Open IMGOINGINSANE" [ref=e95]:
+          - img "IMGOINGINSANE" [ref=e96]
+        - button "Open Hanging by a thread" [ref=e97]:
+          - img "Hanging by a thread" [ref=e98]
+        - button "Expand halftone-subject-tint series, 2 pieces" [ref=e100] [cursor=pointer]:
+          - img "Halftone Subject Tint FINAL" [ref=e103]
+          - generic [ref=e104]: 2 pieces
+        - button "Open Gradmapsssssssss" [ref=e105]:
+          - img "Gradmapsssssssss" [ref=e106]
+        - button "Open Gradmapssssss" [ref=e107]:
+          - img "Gradmapssssss" [ref=e108]
+        - button "Open Gradmapssss" [ref=e109]:
+          - img "Gradmapssss" [ref=e110]
+        - button "Expand gradientmap series, 6 pieces" [ref=e112] [cursor=pointer]:
+          - img "GradientMap V6" [ref=e116]
+          - generic [ref=e117]: 6 pieces
+        - button "Expand gradient-tokyo series, 3 pieces" [ref=e119] [cursor=pointer]:
+          - img "Gradient Tokyo FINAL" [ref=e123]
+          - generic [ref=e124]: 3 pieces
+        - button "Open Glass Texture V1" [ref=e125]:
+          - img "Glass Texture V1" [ref=e126]
+        - button "Open GRADgridGIRL4" [ref=e127]:
+          - img "GRADgridGIRL4" [ref=e128]
+        - button "Expand gradmap series, 5 pieces" [ref=e130] [cursor=pointer]:
+          - img "GRADMAP V5" [ref=e134]
+          - generic [ref=e135]: 5 pieces
+        - button "Open GRADIENT LI" [ref=e136]:
+          - img "GRADIENT LI" [ref=e137]
+        - button "Expand gradient-li series, 2 pieces" [ref=e139] [cursor=pointer]:
+          - img "GRADIENT LI 3" [ref=e142]
+          - generic [ref=e143]: 2 pieces
+        - button "Open Falling Gun FINAL" [ref=e144]:
+          - img "Falling Gun FINAL" [ref=e145]
+        - button "Open FUCKIT CASETTE" [ref=e146]:
+          - img "FUCKIT CASETTE" [ref=e147]
+        - button "Open FIGHT CLUB SCAN LINES FINAL" [ref=e148]:
+          - img "FIGHT CLUB SCAN LINES FINAL" [ref=e149]
+        - button "Expand dotted series, 5 pieces" [ref=e151] [cursor=pointer]:
+          - img "Dotted V5" [ref=e155]
+          - generic [ref=e156]: 5 pieces
+        - button "Open Doberman F CK V1" [ref=e157]:
+          - img "Doberman F CK V1" [ref=e158]
+        - button "Open Diana esq Collage" [ref=e159]:
+          - img "Diana esq Collage" [ref=e160]
+        - button "Open Dali Mast V1" [ref=e161]:
+          - img "Dali Mast V1" [ref=e162]
+        - button "Open City Girl Final" [ref=e163]:
+          - img "City Girl Final" [ref=e164]
+        - button "Expand chloeposter series, 3 pieces" [ref=e166] [cursor=pointer]:
+          - img "ChloePoster 4" [ref=e170]
+          - generic [ref=e171]: 3 pieces
+        - button "Open Chico sk8 FINAL" [ref=e172]:
+          - img "Chico sk8 FINAL" [ref=e173]
+        - button "Open Camcordergirl" [ref=e174]:
+          - img "Camcordergirl" [ref=e175]
+        - button "Expand calabasasposter series, 4 pieces" [ref=e177] [cursor=pointer]:
+          - img "CalabasasPoster 6" [ref=e181]
+          - generic [ref=e182]: 4 pieces
+        - button "Open COWBOYCENTRAL" [ref=e183]:
+          - img "COWBOYCENTRAL" [ref=e184]
+        - button "Open COOLGUY TYPE FINAL" [ref=e185]:
+          - img "COOLGUY TYPE FINAL" [ref=e186]
+        - button "Open COLOR GRADIENT 1 FINAL" [ref=e187]:
+          - img "COLOR GRADIENT 1 FINAL" [ref=e188]
+        - button "Open CARTI SCAN LINES 1 FINAL" [ref=e189]:
+          - img "CARTI SCAN LINES 1 FINAL" [ref=e190]
+        - button "Open Bob Dylan2 FINAL" [ref=e191]:
+          - img "Bob Dylan2 FINAL" [ref=e192]
+        - button "Open Bob Dylan1 FINAL" [ref=e193]:
+          - img "Bob Dylan1 FINAL" [ref=e194]
+        - button "Open BlueBottleGirl V1" [ref=e195]:
+          - img "BlueBottleGirl V1" [ref=e196]
+        - button "Open BUNNYBOI" [ref=e197]:
+          - img "BUNNYBOI" [ref=e198]
+        - button "Expand billie series, 2 pieces" [ref=e200] [cursor=pointer]:
+          - img "BILLIE NEW 2" [ref=e203]
+          - generic [ref=e204]: 2 pieces
+        - button "Open BEST SCAN LINES 1 FINAL" [ref=e205]:
+          - img "BEST SCAN LINES 1 FINAL" [ref=e206]
+        - button "Open ASAP ROCKK FINALL" [ref=e207]:
+          - img "ASAP ROCKK FINALL" [ref=e208]
+        - button "Open ANGEL" [ref=e209]:
+          - img "ANGEL" [ref=e210]
+        - button "Open 50sSk8tr FINAL" [ref=e211]:
+          - img "50sSk8tr FINAL" [ref=e212]
+  - button "Open Next.js Dev Tools" [ref=e218] [cursor=pointer]:
+    - img [ref=e219]
+  - alert [ref=e222]
