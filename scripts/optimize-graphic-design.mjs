@@ -18,6 +18,17 @@ const MANIFEST = path.join(REPO_ROOT, "src/app/graphic-design/images.json");
 
 const MAX_EDGE = 2000;
 const WEBP_QUALITY = 82;
+const BLUR_EDGE = 12;
+const BLUR_QUALITY = 40;
+
+async function makeBlurDataUrl(input) {
+  const buf = await sharp(input, { failOn: "none" })
+    .rotate()
+    .resize(BLUR_EDGE, BLUR_EDGE, { fit: "inside" })
+    .webp({ quality: BLUR_QUALITY })
+    .toBuffer();
+  return `data:image/webp;base64,${buf.toString("base64")}`;
+}
 
 function slugify(name) {
   return name
@@ -127,12 +138,14 @@ async function main() {
         processed += 1;
         console.log(`  ✓ ${s.name} → ${outName} (${width}×${height})`);
       }
+      const blurDataURL = await makeBlurDataUrl(outPath);
       manifest.push({
         slug,
         src: `/graphic-design/${outName}`,
         width,
         height,
         alt: prettyAlt(s.name),
+        blurDataURL,
       });
     } catch (err) {
       failed += 1;

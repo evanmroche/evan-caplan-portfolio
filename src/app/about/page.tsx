@@ -24,15 +24,14 @@ export default function AboutPage() {
         </p>
         <p>
           With over 4 years of experience, I specialize in cinematic
-          storytelling, brand design, and turning creative ideas into
-          compelling visual narratives. Whether it&apos;s a short film, a brand
-          identity, or a social campaign, I bring attention to detail and a
-          passion for the craft.
+          storytelling, brand design, and turning creative ideas into compelling
+          visual narratives. Whether it&apos;s a short film, a brand identity,
+          or a social campaign, I bring attention to detail and a passion for
+          the craft.
         </p>
         <p>
-          When I&apos;m not editing or designing, you&apos;ll find me exploring
-          the mountains, shooting on film, or hunting for the perfect coffee
-          spot.
+          When I&apos;m not editing or designing, you&apos;ll find me
+          thrifting, at the beach, or playing pickleball.
         </p>
       </div>
       <div className="mt-8 h-px w-24 bg-primary/50 animate-fade-in animate-delay-400" />
