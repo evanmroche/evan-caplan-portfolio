@@ -22,6 +22,9 @@ export type GraphicDesignImage = {
   alt: string;
   blurDataURL: string;
   seriesId?: string;
+  avgColor?: { hex: string; lab: [number, number, number] };
+  meanChroma?: number;
+  isBw?: boolean;
 };
 
 type GalleryItem =

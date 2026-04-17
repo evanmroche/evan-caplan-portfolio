@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "optimize:graphics": "node scripts/optimize-graphic-design.mjs"
+    "optimize:graphics": "node scripts/optimize-graphic-design.mjs",
+    "color-sort": "node scripts/color-sort-graphic-design.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
