@@ -12,6 +12,8 @@ type LoopingVideoProps = {
   posterSrc: string;
   title: string;
   vertical?: boolean;
+  width?: number;
+  height?: number;
   priority?: boolean;
 };
 
@@ -20,6 +22,8 @@ export function LoopingVideo({
   posterSrc,
   title,
   vertical = false,
+  width,
+  height,
   priority = false,
 }: LoopingVideoProps) {
   const { ref, isVisible } = useIntersection({ rootMargin: "400px 0px" });
@@ -35,12 +39,20 @@ export function LoopingVideo({
     }
   }, [isVisible]);
 
+  const hasIntrinsic = typeof width === "number" && typeof height === "number";
+  const aspectStyle = hasIntrinsic
+    ? { aspectRatio: `${width} / ${height}` }
+    : undefined;
+  const isPortrait = hasIntrinsic ? height! > width! : vertical;
+
   return (
     <div
       ref={ref}
+      style={aspectStyle}
       className={cn(
         "group relative mx-auto overflow-hidden rounded-md border border-border/60 bg-black",
-        vertical ? "aspect-[9/16] max-w-xs" : "aspect-video w-full",
+        !hasIntrinsic && (vertical ? "aspect-[9/16]" : "aspect-video"),
+        isPortrait ? "w-full max-w-xs" : "w-full",
       )}
     >
       <Image
@@ -48,7 +60,7 @@ export function LoopingVideo({
         alt={title}
         fill
         sizes={
-          vertical
+          isPortrait
             ? "(max-width: 768px) 80vw, 320px"
             : "(max-width: 768px) 100vw, 50vw"
         }
