@@ -1,0 +1,148 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e7]:
+      - link "Home" [ref=e8] [cursor=pointer]:
+        - /url: /
+      - link "Video" [ref=e9] [cursor=pointer]:
+        - /url: /video-projects
+      - link "Design" [ref=e10] [cursor=pointer]:
+        - /url: /graphic-design
+      - link "About" [ref=e11] [cursor=pointer]:
+        - /url: /about
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - heading "Video Projects" [level=1] [ref=e23]
+      - generic [ref=e26]:
+        - figure [ref=e27]:
+          - link "Watch Carhartt Women Hype :30 on Vimeo" [ref=e28] [cursor=pointer]:
+            - /url: https://vimeo.com/1184986597
+            - generic [ref=e29]:
+              - img "Carhartt Women Hype :30" [ref=e30]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Carhartt Women Hype :30
+            - generic [ref=e32]: Carhartt Women Hype :30
+        - figure [ref=e33]:
+          - link "Watch Carhartt Womens Denim Social :15 on Vimeo" [ref=e34] [cursor=pointer]:
+            - /url: https://vimeo.com/1184986720
+            - generic [ref=e35]:
+              - img "Carhartt Womens Denim Social :15" [ref=e36]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Carhartt Womens Denim Social :15
+            - generic [ref=e38]: Carhartt Womens Denim Social :15
+        - figure [ref=e39]:
+          - link "Watch Domino's Best Deal Ever $9.99 Generic on Vimeo" [ref=e40] [cursor=pointer]:
+            - /url: https://vimeo.com/1185019373
+            - generic [ref=e41]:
+              - img "Domino's Best Deal Ever $9.99 Generic" [ref=e42]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Domino's Best Deal Ever $9.99 Generic
+            - generic [ref=e44]: Domino's Best Deal Ever $9.99 Generic
+        - figure [ref=e45]:
+          - link "Watch JD Sports 1stFloorCashDesk :30 on Vimeo" [ref=e46] [cursor=pointer]:
+            - /url: https://vimeo.com/1185017843
+            - generic [ref=e47]:
+              - img "JD Sports 1stFloorCashDesk :30" [ref=e48]
+              - generic:
+                - generic:
+                  - img
+                  - generic: JD Sports 1stFloorCashDesk :30
+            - generic [ref=e50]: JD Sports 1stFloorCashDesk :30
+        - figure [ref=e51]:
+          - link "Watch JD Sports MensNikeApparel :15 on Vimeo" [ref=e52] [cursor=pointer]:
+            - /url: https://vimeo.com/1184987705
+            - generic [ref=e53]:
+              - img "JD Sports MensNikeApparel :15" [ref=e54]
+              - generic:
+                - generic:
+                  - img
+                  - generic: JD Sports MensNikeApparel :15
+            - generic [ref=e55]: JD Sports MensNikeApparel :15
+        - figure [ref=e56]:
+          - link "Watch JD Sports MensAdidasFootwearSIS :15 on Vimeo" [ref=e57] [cursor=pointer]:
+            - /url: https://vimeo.com/1184987654
+            - generic [ref=e58]:
+              - img "JD Sports MensAdidasFootwearSIS :15" [ref=e59]
+              - generic:
+                - generic:
+                  - img
+                  - generic: JD Sports MensAdidasFootwearSIS :15
+            - generic [ref=e60]: JD Sports MensAdidasFootwearSIS :15
+        - figure [ref=e61]:
+          - link "Watch JD Sports 1stFloorDigital Footwear Podium Ticker on Vimeo" [ref=e62] [cursor=pointer]:
+            - /url: https://vimeo.com/1184987762
+            - generic [ref=e63]:
+              - img "JD Sports 1stFloorDigital Footwear Podium Ticker" [ref=e64]
+              - generic:
+                - generic:
+                  - img
+                  - generic: JD Sports 1stFloorDigital Footwear Podium Ticker
+            - generic [ref=e65]: JD Sports 1stFloorDigital Footwear Podium Ticker
+        - figure [ref=e66]:
+          - link "Watch Thriftcon NYC :60 on Vimeo" [ref=e67] [cursor=pointer]:
+            - /url: https://vimeo.com/1181461866
+            - generic [ref=e68]:
+              - img "Thriftcon NYC :60" [ref=e69]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Thriftcon NYC :60
+            - generic [ref=e70]: Thriftcon NYC :60
+        - figure [ref=e71]:
+          - link "Watch Thriftcon NYC on Vimeo" [ref=e72] [cursor=pointer]:
+            - /url: https://vimeo.com/1181451985
+            - generic [ref=e73]:
+              - img "Thriftcon NYC" [ref=e74]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Thriftcon NYC
+            - generic [ref=e75]: Thriftcon NYC
+        - figure [ref=e76]:
+          - link "Watch Thriftcon LA on Vimeo" [ref=e77] [cursor=pointer]:
+            - /url: https://vimeo.com/1181427880
+            - generic [ref=e78]:
+              - img "Thriftcon LA" [ref=e79]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Thriftcon LA
+            - generic [ref=e80]: Thriftcon LA
+        - figure [ref=e81]:
+          - link "Watch 6.99 Deal Feed The Crew :30 on Vimeo" [ref=e82] [cursor=pointer]:
+            - /url: https://vimeo.com/1165866674
+            - generic [ref=e83]:
+              - img "6.99 Deal Feed The Crew :30" [ref=e84]
+              - generic:
+                - generic:
+                  - img
+                  - generic: 6.99 Deal Feed The Crew :30
+            - generic [ref=e85]: 6.99 Deal Feed The Crew :30
+        - figure [ref=e86]:
+          - link "Watch WILDCOAT Reviews Social on Vimeo" [ref=e87] [cursor=pointer]:
+            - /url: https://vimeo.com/1164147421
+            - generic [ref=e88]:
+              - img "WILDCOAT Reviews Social" [ref=e89]
+              - generic:
+                - generic:
+                  - img
+                  - generic: WILDCOAT Reviews Social
+            - generic [ref=e90]: WILDCOAT Reviews Social
+        - figure [ref=e91]:
+          - link "Watch WILDCOAT POV Social on Vimeo" [ref=e92] [cursor=pointer]:
+            - /url: https://vimeo.com/1164147189
+            - generic [ref=e93]:
+              - img "WILDCOAT POV Social" [ref=e94]
+              - generic:
+                - generic:
+                  - img
+                  - generic: WILDCOAT POV Social
+            - generic [ref=e95]: WILDCOAT POV Social
+  - button "Open Next.js Dev Tools" [ref=e101] [cursor=pointer]:
+    - img [ref=e102]
+  - alert [ref=e105]

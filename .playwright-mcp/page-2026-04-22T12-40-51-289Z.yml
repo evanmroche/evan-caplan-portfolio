@@ -1,0 +1,91 @@
+- generic [ref=e1]:
+  - generic [active]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - navigation [ref=e43]:
+          - button "previous" [disabled] [ref=e44]:
+            - img "previous" [ref=e45]
+          - generic [ref=e47]:
+            - generic [ref=e48]: 1/
+            - text: "1"
+          - button "next" [disabled] [ref=e49]:
+            - img "next" [ref=e50]
+        - link "Next.js 16.2.0 (stale) Turbopack" [ref=e53] [cursor=pointer]:
+          - /url: https://nextjs.org/docs/messages/version-staleness
+          - img [ref=e54]
+          - generic "There is a newer version (16.2.4) available, upgrade recommended!" [ref=e56]: Next.js 16.2.0 (stale)
+          - generic [ref=e57]: Turbopack
+      - dialog "Runtime ReferenceError" [ref=e59]:
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e66]: Runtime ReferenceError
+              - generic [ref=e67]:
+                - button "Copy Error Info" [ref=e68] [cursor=pointer]:
+                  - img [ref=e69]
+                - button "No related documentation found" [disabled] [ref=e71]:
+                  - img [ref=e72]
+                - button "Attach Node.js inspector" [ref=e74] [cursor=pointer]:
+                  - img [ref=e75]
+            - generic [ref=e84]: mounted is not defined
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - paragraph [ref=e88]:
+                - img [ref=e90]
+                - generic [ref=e93]: src/components/layout/mobile-menu.tsx (51:8) @ MobileMenu
+                - button "Open in editor" [ref=e94] [cursor=pointer]:
+                  - img [ref=e96]
+              - generic [ref=e99]:
+                - generic [ref=e100]: 49 | </button>
+                - generic [ref=e101]: 50 |
+                - generic [ref=e102]: "> 51 | {mounted && isOpen &&"
+                - generic [ref=e103]: "| ^"
+                - generic [ref=e104]: 52 | createPortal(
+                - generic [ref=e105]: 53 | <div
+                - generic [ref=e106]: 54 | className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-bac...
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - paragraph [ref=e109]:
+                  - text: Call Stack
+                  - generic [ref=e110]: "16"
+                - button "Show 13 ignore-listed frame(s)" [ref=e111] [cursor=pointer]:
+                  - text: Show 13 ignore-listed frame(s)
+                  - img [ref=e112]
+              - generic [ref=e114]:
+                - generic [ref=e115]:
+                  - text: MobileMenu
+                  - button "Open MobileMenu in editor" [ref=e116] [cursor=pointer]:
+                    - img [ref=e117]
+                - text: src/components/layout/mobile-menu.tsx (51:8)
+              - generic [ref=e119]:
+                - generic [ref=e120]:
+                  - text: FilmStaticHeader
+                  - button "Open FilmStaticHeader in editor" [ref=e121] [cursor=pointer]:
+                    - img [ref=e122]
+                - text: src/components/layout/film-static-header.tsx (28:9)
+              - generic [ref=e124]:
+                - generic [ref=e125]:
+                  - text: RootLayout
+                  - button "Open RootLayout in editor" [ref=e126] [cursor=pointer]:
+                    - img [ref=e127]
+                - text: src/app/layout.tsx (27:11)
+        - generic [ref=e129]: "1"
+        - generic [ref=e130]: "2"
+    - generic [ref=e32] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=e33]:
+        - img [ref=e34]
+      - generic [ref=e131]:
+        - button "Open issues overlay" [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e134]: "0"
+            - generic [ref=e135]: "1"
+          - generic [ref=e136]: Issue
+        - button "Collapse issues badge" [ref=e137]:
+          - img [ref=e138]
+  - generic [ref=e141]:
+    - img [ref=e142]
+    - heading "This page couldn’t load" [level=1] [ref=e144]
+    - paragraph [ref=e145]: Reload to try again, or go back.
+    - generic [ref=e146]:
+      - button "Reload" [ref=e148] [cursor=pointer]
+      - button "Back" [ref=e149] [cursor=pointer]

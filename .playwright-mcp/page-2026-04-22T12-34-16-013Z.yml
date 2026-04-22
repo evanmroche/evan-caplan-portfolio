@@ -1,0 +1,336 @@
+- generic [ref=e2]:
+  - navigation "Main menu" [ref=e6]:
+    - link "Go to Vimeo home page" [ref=e8] [cursor=pointer]:
+      - /url: /
+      - img [ref=e10]
+    - generic [ref=e12]:
+      - link [ref=e14] [cursor=pointer]:
+        - /url: /help/sso?redirect_to=https://help.vimeo.com/
+        - img [ref=e16]
+      - generic [ref=e20]:
+        - button "Pricing" [ref=e21] [cursor=pointer]
+        - button "Log in" [ref=e22] [cursor=pointer]
+        - button "Join" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: Join
+      - button [ref=e27]:
+        - img [ref=e30] [cursor=pointer]
+  - generic [ref=e33]:
+    - generic [ref=e34]:
+      - banner [ref=e35]:
+        - heading "Evan Caplan’s Videos" [level=1] [ref=e36]:
+          - link "Evan Caplan" [ref=e37] [cursor=pointer]:
+            - /url: /user254547779
+          - text: ’s Videos
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e41]:
+            - link "17 Videos" [ref=e42] [cursor=pointer]:
+              - /url: /user254547779/videos/sort:date
+            - link "0 Appearances" [ref=e43] [cursor=pointer]:
+              - /url: /user254547779/videos/appears/sort:date
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e47]:
+                - term [ref=e48]: "Sort:"
+                - definition [ref=e49]:
+                  - link "Date" [ref=e50] [cursor=pointer]:
+                    - /url: /user254547779/videos/sort:date/format:thumbnail
+                - definition [ref=e51]:
+                  - text: "|"
+                  - link "Alphabetical" [ref=e52] [cursor=pointer]:
+                    - /url: /user254547779/videos/sort:alphabetical/format:thumbnail
+                - definition [ref=e53]:
+                  - text: "|"
+                  - link "Plays" [ref=e54] [cursor=pointer]:
+                    - /url: /user254547779/videos/sort:plays/format:thumbnail
+                - definition [ref=e55]:
+                  - text: "|"
+                  - link "Likes" [ref=e56] [cursor=pointer]:
+                    - /url: /user254547779/videos/sort:likes/format:thumbnail
+                - definition [ref=e57]:
+                  - text: "|"
+                  - link "Duration" [ref=e58] [cursor=pointer]:
+                    - /url: /user254547779/videos/sort:duration/format:thumbnail
+              - generic [ref=e59]:
+                - generic [ref=e60]:
+                  - link "Thumbnails" [ref=e61]:
+                    - /url: /user254547779/videos/sort:date/format:thumbnail
+                    - img [ref=e62]
+                  - link "Details" [ref=e64] [cursor=pointer]:
+                    - /url: /user254547779/videos/sort:date/format:detail
+                    - img [ref=e65]
+                - link "s" [ref=e67] [cursor=pointer]:
+                  - /url: javascript:void(0)
+            - generic [ref=e68]:
+              - generic [ref=e69]: "Search within these results:"
+              - textbox "Start typing here…" [ref=e70]
+              - generic [ref=e71]:
+                - button "Search" [ref=e72] [cursor=pointer]
+                - text: or
+                - link "cancel" [ref=e73] [cursor=pointer]:
+                  - /url: "javascript: void(0)"
+          - generic [ref=e75]:
+            - list [ref=e76]:
+              - listitem [ref=e77]:
+                - link "Domino's Best Deal Ever $9.99 Generic 1 day ago" [ref=e78] [cursor=pointer]:
+                  - /url: /1185019373
+                  - generic [ref=e79]:
+                    - generic [ref=e81]: Domino's Best Deal Ever $9.99 Generic
+                    - paragraph [ref=e82]:
+                      - time [ref=e83]: 1 day ago
+              - listitem [ref=e84]:
+                - link "JD Sports CashDeskBulkhead Ticker 1 day ago" [ref=e85] [cursor=pointer]:
+                  - /url: /1185018753
+                  - generic [ref=e86]:
+                    - generic [ref=e88]: JD Sports CashDeskBulkhead Ticker
+                    - paragraph [ref=e89]:
+                      - time [ref=e90]: 1 day ago
+              - listitem [ref=e91]:
+                - link "JD Sports EscalatorPortalTicker 1 day ago" [ref=e92] [cursor=pointer]:
+                  - /url: /1185018076
+                  - generic [ref=e93]:
+                    - generic [ref=e95]: JD Sports EscalatorPortalTicker
+                    - paragraph [ref=e96]:
+                      - time [ref=e97]: 1 day ago
+              - listitem [ref=e98]:
+                - link "JD Sports 1stFloorCashDesk :30 1 day ago" [ref=e99] [cursor=pointer]:
+                  - /url: /1185017843
+                  - generic [ref=e100]:
+                    - generic [ref=e102]: JD Sports 1stFloorCashDesk :30
+                    - paragraph [ref=e103]:
+                      - time [ref=e104]: 1 day ago
+              - listitem [ref=e105]:
+                - link "Domino's Best Deal Ever $9.99 :15 1 day ago" [ref=e106] [cursor=pointer]:
+                  - /url: /1184987778
+                  - generic [ref=e107]:
+                    - generic [ref=e109]: Domino's Best Deal Ever $9.99 :15
+                    - paragraph [ref=e110]:
+                      - time [ref=e111]: 1 day ago
+              - listitem [ref=e112]:
+                - link "JD Sports 1stFloorDigital Footwear Podium Ticker 1 day ago" [ref=e113] [cursor=pointer]:
+                  - /url: /1184987762
+                  - generic [ref=e114]:
+                    - generic [ref=e116]: JD Sports 1stFloorDigital Footwear Podium Ticker
+                    - paragraph [ref=e117]:
+                      - time [ref=e118]: 1 day ago
+              - listitem [ref=e119]:
+                - link "JD Sports MensNikeApparel :15 1 day ago" [ref=e120] [cursor=pointer]:
+                  - /url: /1184987705
+                  - generic [ref=e121]:
+                    - generic [ref=e123]: JD Sports MensNikeApparel :15
+                    - paragraph [ref=e124]:
+                      - time [ref=e125]: 1 day ago
+              - listitem [ref=e126]:
+                - link "JD Sports MensAdidasFootwearSIS :15 1 day ago" [ref=e127] [cursor=pointer]:
+                  - /url: /1184987654
+                  - generic [ref=e128]:
+                    - generic [ref=e130]: JD Sports MensAdidasFootwearSIS :15
+                    - paragraph [ref=e131]:
+                      - time [ref=e132]: 1 day ago
+              - listitem [ref=e133]:
+                - link "Carhartt Womens Denim Social :15 1 day ago" [ref=e134] [cursor=pointer]:
+                  - /url: /1184986720
+                  - generic [ref=e135]:
+                    - generic [ref=e137]: Carhartt Womens Denim Social :15
+                    - paragraph [ref=e138]:
+                      - time [ref=e139]: 1 day ago
+              - listitem [ref=e140]:
+                - link "Carhartt Women Hype :30 1 day ago" [ref=e141] [cursor=pointer]:
+                  - /url: /1184986597
+                  - generic [ref=e142]:
+                    - generic [ref=e144]: Carhartt Women Hype :30
+                    - paragraph [ref=e145]:
+                      - time [ref=e146]: 1 day ago
+              - listitem [ref=e147]:
+                - link "Thriftcon NYC :60 2 weeks ago" [ref=e148] [cursor=pointer]:
+                  - /url: /1181461866
+                  - generic [ref=e149]:
+                    - generic [ref=e151]: Thriftcon NYC :60
+                    - paragraph [ref=e152]:
+                      - time [ref=e153]: 2 weeks ago
+            - generic [ref=e154]:
+              - list:
+                - listitem [ref=e155]:
+                  - link "1" [ref=e156] [cursor=pointer]:
+                    - /url: /user254547779/videos/page:1/sort:date
+                - listitem [ref=e157]:
+                  - link "2" [ref=e158] [cursor=pointer]:
+                    - /url: /user254547779/videos/page:2/sort:date
+                - listitem [ref=e159]:
+                  - link "Next" [ref=e160] [cursor=pointer]:
+                    - /url: /user254547779/videos/page:2/sort:date
+                - generic [ref=e161]:
+                  - text: "Save time: use your arrow keys"
+                  - button "×" [ref=e162] [cursor=pointer]
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - heading "Browse Videos" [level=4] [ref=e165]
+            - generic [ref=e166]:
+              - link "Videos" [ref=e167] [cursor=pointer]:
+                - /url: /user254547779
+              - link "Evan Caplan":
+                - /url: /user254547779
+                - img "Evan Caplan" [ref=e168] [cursor=pointer]
+            - paragraph [ref=e169]:
+              - text: Here are all of the videos that
+              - link "Evan Caplan" [ref=e170] [cursor=pointer]:
+                - /url: /user254547779
+              - text: has uploaded to Vimeo. Appearances are videos that Evan Caplan has been credited in by others.
+            - paragraph [ref=e171]:
+              - link "3Follow" [ref=e172] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - generic [ref=e173]:
+            - heading "Also Check Out" [level=4] [ref=e174]
+            - paragraph [ref=e175]:
+              - text: More stuff from
+              - link "Evan Caplan" [ref=e176] [cursor=pointer]:
+                - /url: /user254547779
+            - list [ref=e177]:
+              - listitem [ref=e178]:
+                - link "17 Videos" [ref=e179] [cursor=pointer]:
+                  - /url: /user254547779/videos
+                  - paragraph [ref=e180]: 17 Videos
+                - text: "4"
+          - complementary [ref=e181]:
+            - heading "Related RSS Feeds" [level=4] [ref=e182]
+            - list [ref=e183]:
+              - listitem [ref=e184]:
+                - link "f Evan Caplan’s Videos" [ref=e185] [cursor=pointer]:
+                  - /url: https://vimeo.com/user254547779/videos/rss
+    - contentinfo [ref=e186]:
+      - generic [ref=e187]:
+        - img [ref=e189]
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - checkbox [ref=e193]
+            - heading "Product" [level=3] [ref=e194]:
+              - generic [ref=e195]: Product
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - heading "Features" [level=4] [ref=e198]
+                - generic [ref=e199]:
+                  - list [ref=e200]:
+                    - listitem [ref=e201]:
+                      - link "Video Hosting" [ref=e202] [cursor=pointer]:
+                        - /url: /features/online-video-hosting
+                    - listitem [ref=e203]:
+                      - link "Video Editor" [ref=e204] [cursor=pointer]:
+                        - /url: /video-editor
+                    - listitem [ref=e205]:
+                      - link "Send videos" [ref=e206] [cursor=pointer]:
+                        - /url: /features/send-videos
+                    - listitem [ref=e207]:
+                      - link "Live streaming" [ref=e208] [cursor=pointer]:
+                        - /url: /features/livestreaming
+                    - listitem [ref=e209]:
+                      - link "Video Player" [ref=e210] [cursor=pointer]:
+                        - /url: /features/video-player
+                    - listitem [ref=e211]:
+                      - link "Vimeo AI" [ref=e212] [cursor=pointer]:
+                        - /url: /features/vimeo-ai
+                    - listitem [ref=e213]:
+                      - link "Video Analytics" [ref=e214] [cursor=pointer]:
+                        - /url: /features/video-analytics
+                  - list [ref=e215]:
+                    - listitem [ref=e216]:
+                      - link "Video Privacy" [ref=e217] [cursor=pointer]:
+                        - /url: /features/video-privacy
+                    - listitem [ref=e218]:
+                      - link "Video Library" [ref=e219] [cursor=pointer]:
+                        - /url: /features/video-library
+                    - listitem [ref=e220]:
+                      - link "Interactive Video" [ref=e221] [cursor=pointer]:
+                        - /url: /features/interactive-video
+                    - listitem [ref=e222]:
+                      - link "Virtual events" [ref=e223] [cursor=pointer]:
+                        - /url: /features/virtual-events
+                    - listitem [ref=e224]:
+                      - link "Video collaboration" [ref=e225] [cursor=pointer]:
+                        - /url: /features/video-collaboration
+                    - listitem [ref=e226]:
+                      - link "Webinars" [ref=e227] [cursor=pointer]:
+                        - /url: /features/webinar
+                    - listitem [ref=e228]:
+                      - link "Video SEO" [ref=e229] [cursor=pointer]:
+                        - /url: /features/video-seo
+              - generic [ref=e230]:
+                - heading "Solutions" [level=4] [ref=e231]
+                - list [ref=e232]:
+                  - listitem [ref=e233]:
+                    - link "Streaming" [ref=e234] [cursor=pointer]:
+                      - /url: /features/livestreaming
+                  - listitem [ref=e235]:
+                    - link "Marketing" [ref=e236] [cursor=pointer]:
+                      - /url: /features/video-marketing
+                  - listitem [ref=e237]:
+                    - link "Monetization" [ref=e238] [cursor=pointer]:
+                      - /url: /ott?mkc=entprsb
+                  - listitem [ref=e239]:
+                    - link "Communications" [ref=e240] [cursor=pointer]:
+                      - /url: /solutions/communications
+                  - listitem [ref=e241]:
+                    - link "Learning & Development" [ref=e242] [cursor=pointer]:
+                      - /url: /solutions/learning-and-development
+          - generic [ref=e243]:
+            - checkbox [ref=e244]
+            - heading "Video" [level=4] [ref=e245]:
+              - generic [ref=e246]: Video
+            - list [ref=e247]:
+              - listitem [ref=e248]:
+                - link "Watch" [ref=e249] [cursor=pointer]:
+                  - /url: /europeanfilmacademy
+          - generic [ref=e250]:
+            - checkbox [ref=e251]
+            - heading "Resources" [level=4] [ref=e252]:
+              - generic [ref=e253]: Resources
+            - list [ref=e254]:
+              - listitem [ref=e255]:
+                - link "Help Center" [ref=e256] [cursor=pointer]:
+                  - /url: https://vimeo.com/help/sso?redirect_to=https://help.vimeo.com/
+              - listitem [ref=e257]:
+                - link "Blog" [ref=e258] [cursor=pointer]:
+                  - /url: https://vimeo.com/blog/
+              - listitem [ref=e259]:
+                - link "Media kit" [ref=e260] [cursor=pointer]:
+                  - /url: https://vimeo.com/press
+              - listitem [ref=e261]:
+                - link "About" [ref=e262] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e263]:
+                - link "Careers" [ref=e264] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e265]:
+                - link "Sitemap" [ref=e266] [cursor=pointer]:
+                  - /url: /site_map
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - paragraph [ref=e270]: © 2026 Vimeo.com, Inc. All rights reserved.
+          - list [ref=e271]:
+            - listitem [ref=e272]:
+              - link "Terms" [ref=e273] [cursor=pointer]:
+                - /url: /terms
+            - listitem [ref=e274]:
+              - text: "|"
+              - link "Privacy" [ref=e275] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e276]: "| Your Privacy Choices"
+            - listitem [ref=e277]:
+              - text: "|"
+              - link "U.S. State Privacy" [ref=e278] [cursor=pointer]:
+                - /url: /privacy/us-state-privacy
+            - listitem [ref=e279]:
+              - text: "|"
+              - link "Copyright" [ref=e280] [cursor=pointer]:
+                - /url: /dmca
+            - listitem [ref=e281]:
+              - text: "|"
+              - link "Cookies" [ref=e282] [cursor=pointer]:
+                - /url: /cookie_policy
+        - generic [ref=e283]:
+          - generic [ref=e284]:
+            - text: "Language:"
+            - link "English" [ref=e285] [cursor=pointer]:
+              - /url: "#language"
+          - text: "Mature content filter:"
+          - link "None" [ref=e286] [cursor=pointer]:
+            - /url: javascript:void(0)

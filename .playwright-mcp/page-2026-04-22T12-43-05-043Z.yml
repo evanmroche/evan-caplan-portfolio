@@ -1,0 +1,141 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - button "Open menu" [active] [ref=e85]:
+      - img [ref=e86]
+  - main [ref=e16]:
+    - generic [ref=e87]:
+      - heading "Video Projects" [level=1] [ref=e89]
+      - generic [ref=e92]:
+        - figure [ref=e93]:
+          - link "Watch 6.99 Deal Feed The Crew :30 on Vimeo" [ref=e94] [cursor=pointer]:
+            - /url: https://vimeo.com/1165866674
+            - generic [ref=e95]:
+              - img "6.99 Deal Feed The Crew :30" [ref=e96]
+              - generic:
+                - generic:
+                  - img
+                  - generic: 6.99 Deal Feed The Crew :30
+            - generic [ref=e98]: 6.99 Deal Feed The Crew :30
+        - figure [ref=e99]:
+          - link "Watch JD Sports 1stFloorDigital Footwear Podium Ticker on Vimeo" [ref=e100] [cursor=pointer]:
+            - /url: https://vimeo.com/1184987762
+            - generic [ref=e101]:
+              - img "JD Sports 1stFloorDigital Footwear Podium Ticker" [ref=e102]
+              - generic:
+                - generic:
+                  - img
+                  - generic: JD Sports 1stFloorDigital Footwear Podium Ticker
+            - generic [ref=e104]: JD Sports 1stFloorDigital Footwear Podium Ticker
+        - figure [ref=e105]:
+          - link "Watch Carhartt Women Hype :30 on Vimeo" [ref=e106] [cursor=pointer]:
+            - /url: https://vimeo.com/1184986597
+            - generic [ref=e107]:
+              - img "Carhartt Women Hype :30" [ref=e108]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Carhartt Women Hype :30
+            - generic [ref=e110]: Carhartt Women Hype :30
+        - figure [ref=e111]:
+          - link "Watch JD Sports MensAdidasFootwearSIS :15 on Vimeo" [ref=e112] [cursor=pointer]:
+            - /url: https://vimeo.com/1184987654
+            - generic [ref=e113]:
+              - img "JD Sports MensAdidasFootwearSIS :15" [ref=e114]
+              - generic:
+                - generic:
+                  - img
+                  - generic: JD Sports MensAdidasFootwearSIS :15
+            - generic [ref=e116]: JD Sports MensAdidasFootwearSIS :15
+        - figure [ref=e117]:
+          - link "Watch Thriftcon LA on Vimeo" [ref=e118] [cursor=pointer]:
+            - /url: https://vimeo.com/1181427880
+            - generic [ref=e119]:
+              - img "Thriftcon LA" [ref=e120]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Thriftcon LA
+            - generic [ref=e121]: Thriftcon LA
+        - figure [ref=e122]:
+          - link "Watch Thriftcon NYC :60 on Vimeo" [ref=e123] [cursor=pointer]:
+            - /url: https://vimeo.com/1181461866
+            - generic [ref=e124]:
+              - img "Thriftcon NYC :60" [ref=e125]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Thriftcon NYC :60
+            - generic [ref=e126]: Thriftcon NYC :60
+        - figure [ref=e127]:
+          - link "Watch JD Sports MensNikeApparel :15 on Vimeo" [ref=e128] [cursor=pointer]:
+            - /url: https://vimeo.com/1184987705
+            - generic [ref=e129]:
+              - img "JD Sports MensNikeApparel :15" [ref=e130]
+              - generic:
+                - generic:
+                  - img
+                  - generic: JD Sports MensNikeApparel :15
+            - generic [ref=e131]: JD Sports MensNikeApparel :15
+        - figure [ref=e132]:
+          - link "Watch JD Sports 1stFloorCashDesk :30 on Vimeo" [ref=e133] [cursor=pointer]:
+            - /url: https://vimeo.com/1185017843
+            - generic [ref=e134]:
+              - img "JD Sports 1stFloorCashDesk :30" [ref=e135]
+              - generic:
+                - generic:
+                  - img
+                  - generic: JD Sports 1stFloorCashDesk :30
+            - generic [ref=e136]: JD Sports 1stFloorCashDesk :30
+        - figure [ref=e137]:
+          - link "Watch WILDCOAT Reviews Social on Vimeo" [ref=e138] [cursor=pointer]:
+            - /url: https://vimeo.com/1164147421
+            - generic [ref=e139]:
+              - img "WILDCOAT Reviews Social" [ref=e140]
+              - generic:
+                - generic:
+                  - img
+                  - generic: WILDCOAT Reviews Social
+            - generic [ref=e141]: WILDCOAT Reviews Social
+        - figure [ref=e142]:
+          - link "Watch Carhartt Womens Denim Social :15 on Vimeo" [ref=e143] [cursor=pointer]:
+            - /url: https://vimeo.com/1184986720
+            - generic [ref=e144]:
+              - img "Carhartt Womens Denim Social :15" [ref=e145]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Carhartt Womens Denim Social :15
+            - generic [ref=e146]: Carhartt Womens Denim Social :15
+        - figure [ref=e147]:
+          - link "Watch Domino's Best Deal Ever $9.99 Generic on Vimeo" [ref=e148] [cursor=pointer]:
+            - /url: https://vimeo.com/1185019373
+            - generic [ref=e149]:
+              - img "Domino's Best Deal Ever $9.99 Generic" [ref=e150]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Domino's Best Deal Ever $9.99 Generic
+            - generic [ref=e151]: Domino's Best Deal Ever $9.99 Generic
+        - figure [ref=e152]:
+          - link "Watch WILDCOAT POV Social on Vimeo" [ref=e153] [cursor=pointer]:
+            - /url: https://vimeo.com/1164147189
+            - generic [ref=e154]:
+              - img "WILDCOAT POV Social" [ref=e155]
+              - generic:
+                - generic:
+                  - img
+                  - generic: WILDCOAT POV Social
+            - generic [ref=e156]: WILDCOAT POV Social
+        - figure [ref=e157]:
+          - link "Watch Thriftcon NYC on Vimeo" [ref=e158] [cursor=pointer]:
+            - /url: https://vimeo.com/1181451985
+            - generic [ref=e159]:
+              - img "Thriftcon NYC" [ref=e160]
+              - generic:
+                - generic:
+                  - img
+                  - generic: Thriftcon NYC
+            - generic [ref=e161]: Thriftcon NYC
+  - button "Open Next.js Dev Tools" [ref=e58] [cursor=pointer]:
+    - img [ref=e59]
+  - alert [ref=e62]
