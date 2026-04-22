@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
@@ -47,39 +48,41 @@ export function MobileMenu() {
         {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
       </button>
 
-      {isOpen && (
-        <div
-          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background/95 backdrop-blur-md md:hidden"
-          role="dialog"
-          aria-modal="true"
-          aria-label="Navigation menu"
-        >
-          <nav className="flex flex-col items-center gap-6">
-            {links.map((link, i) => {
-              const isActive =
-                link.href === "/"
-                  ? pathname === "/"
-                  : pathname.startsWith(link.href);
-              return (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setIsOpen(false)}
-                  className={cn(
-                    "font-display text-4xl tracking-wide uppercase transition-colors animate-fade-up",
-                    isActive
-                      ? "text-primary"
-                      : "text-foreground/70 hover:text-foreground"
-                  )}
-                  style={{ animationDelay: `${(i + 1) * 100}ms` }}
-                >
-                  {link.label}
-                </Link>
-              );
-            })}
-          </nav>
-        </div>
-      )}
+      {isOpen &&
+        createPortal(
+          <div
+            className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background/95 backdrop-blur-md md:hidden"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Navigation menu"
+          >
+            <nav className="flex flex-col items-center gap-6">
+              {links.map((link, i) => {
+                const isActive =
+                  link.href === "/"
+                    ? pathname === "/"
+                    : pathname.startsWith(link.href);
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setIsOpen(false)}
+                    className={cn(
+                      "font-display text-4xl tracking-wide uppercase transition-colors animate-fade-up",
+                      isActive
+                        ? "text-primary"
+                        : "text-foreground/70 hover:text-foreground"
+                    )}
+                    style={{ animationDelay: `${(i + 1) * 100}ms` }}
+                  >
+                    {link.label}
+                  </Link>
+                );
+              })}
+            </nav>
+          </div>,
+          document.body
+        )}
     </>
   );
 }

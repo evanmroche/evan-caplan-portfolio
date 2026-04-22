@@ -1,0 +1,31 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Open menu" [ref=e6]:
+      - img [ref=e7]
+  - main [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Evan Caplan" [level=1] [ref=e20]:
+          - generic [ref=e21]: Evan
+          - generic [ref=e22]: Caplan
+        - paragraph [ref=e24]: Video Editor / Graphic Designer
+        - paragraph [ref=e25]: Los Angeles · 2026
+      - navigation "Primary" [ref=e34]:
+        - link "01 Video Projects" [ref=e35] [cursor=pointer]:
+          - /url: /video-projects
+          - generic [ref=e36]: "01"
+          - generic [ref=e38]: Video Projects
+          - img [ref=e39]
+        - link "02 Graphic Design" [ref=e41] [cursor=pointer]:
+          - /url: /graphic-design
+          - generic [ref=e42]: "02"
+          - generic [ref=e44]: Graphic Design
+          - img [ref=e45]
+        - link "03 About Me" [ref=e47] [cursor=pointer]:
+          - /url: /about
+          - generic [ref=e48]: "03"
+          - generic [ref=e50]: About Me
+          - img [ref=e51]
+  - button "Open Next.js Dev Tools" [ref=e58] [cursor=pointer]:
+    - img [ref=e59]
+  - alert [ref=e62]

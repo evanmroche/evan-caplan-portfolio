@@ -5,15 +5,24 @@ type Video = {
   vimeoId: string;
   title: string;
   vertical?: boolean;
+  width?: number;
+  height?: number;
 };
 
 const videos: Video[] = [
-  { slug: "thriftcon-nyc-60", vimeoId: "1181461866", title: "Thriftcon NYC :60" },
-  { slug: "thriftcon-nyc", vimeoId: "1181451985", title: "Thriftcon NYC" },
-  { slug: "thriftcon-la", vimeoId: "1181427880", title: "Thriftcon LA" },
   { slug: "six99-deal", vimeoId: "1165866674", title: "6.99 Deal Feed The Crew :30" },
+  { slug: "jd-sports-podium-ticker", vimeoId: "1184987762", title: "JD Sports 1stFloorDigital Footwear Podium Ticker", width: 640, height: 232 },
+  { slug: "carhartt-women-hype-30", vimeoId: "1184986597", title: "Carhartt Women Hype :30", width: 1280, height: 720 },
+  { slug: "jd-sports-mensadidasfootwearsis-15", vimeoId: "1184987654", title: "JD Sports MensAdidasFootwearSIS :15", width: 640, height: 360 },
+  { slug: "thriftcon-la", vimeoId: "1181427880", title: "Thriftcon LA" },
+  { slug: "thriftcon-nyc-60", vimeoId: "1181461866", title: "Thriftcon NYC :60" },
+  { slug: "jd-sports-mensnikeapparel-15", vimeoId: "1184987705", title: "JD Sports MensNikeApparel :15", width: 608, height: 540 },
+  { slug: "jd-sports-1stfloorcashdesk-30", vimeoId: "1185017843", title: "JD Sports 1stFloorCashDesk :30", width: 1080, height: 720 },
   { slug: "wildcoat-reviews", vimeoId: "1164147421", title: "WILDCOAT Reviews Social", vertical: true },
+  { slug: "carhartt-womens-denim-social-15", vimeoId: "1184986720", title: "Carhartt Womens Denim Social :15", width: 720, height: 900 },
+  { slug: "dominos-best-deal-ever-999-generic", vimeoId: "1185019373", title: "Domino's Best Deal Ever $9.99 Generic", width: 1280, height: 720 },
   { slug: "wildcoat-pov", vimeoId: "1164147189", title: "WILDCOAT POV Social", vertical: true },
+  { slug: "thriftcon-nyc", vimeoId: "1181451985", title: "Thriftcon NYC" },
 ];
 
 export default function VideoProjectsPage() {
@@ -45,6 +54,8 @@ export default function VideoProjectsPage() {
                   posterSrc={`https://vumbnail.com/${video.vimeoId}_large.jpg`}
                   title={video.title}
                   vertical={video.vertical}
+                  width={video.width}
+                  height={video.height}
                   priority={index === 0}
                 />
                 <figcaption className="mt-3 text-center">
