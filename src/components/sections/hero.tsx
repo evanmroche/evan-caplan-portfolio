@@ -120,9 +120,10 @@ export function Hero() {
                 {item.number}
               </span>
 
-              <span className="relative h-px w-8 bg-border/60 self-center group-hover:w-16 group-hover:bg-primary transition-all duration-500" />
+              {/* Scale and translate, not width: hover must never reflow the title. */}
+              <span className="relative h-px w-8 shrink-0 origin-left bg-border/60 self-center md:group-hover:scale-x-150 xl:group-hover:scale-x-200 group-hover:bg-primary transition-[scale,background-color] duration-500" />
 
-              <span className="relative font-display text-3xl md:text-[clamp(2.25rem,min(5vw,8vh),4.5rem)] leading-none tracking-wide text-foreground group-hover:text-primary transition-colors">
+              <span className="relative font-display text-3xl md:text-[clamp(2.25rem,min(4.25vw,8vh),4rem)] leading-none tracking-wide text-foreground group-hover:text-primary xl:group-hover:translate-x-8 transition-[color,translate] duration-500">
                 {item.title}
               </span>
 
