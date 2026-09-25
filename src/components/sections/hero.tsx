@@ -1,5 +1,6 @@
 "use client";
 
+import { Fragment } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { useIntersection } from "@/hooks/use-intersection";
@@ -12,10 +13,13 @@ type NavItem = {
 };
 
 const navItems: NavItem[] = [
-  { number: "01", title: "Video Projects", href: "/video-projects" },
-  { number: "02", title: "Graphic Design", href: "/graphic-design" },
-  { number: "03", title: "About Me", href: "/about" },
+  { number: "01", title: "Graphic Design", href: "/graphic-design" },
+  { number: "02", title: "Video Projects", href: "/video-projects" },
+  { number: "03", title: "Personal Artwork", href: "/personal-artwork" },
+  { number: "04", title: "About Me", href: "/about" },
 ];
+
+const roles = ["Graphic Designer", "Illustrator", "Video Editor"];
 
 const smpteBars = [
   "bg-smpte-white",
@@ -61,7 +65,15 @@ export function Hero() {
               isVisible ? "animate-fade-up animate-delay-200" : "opacity-0"
             )}
           >
-            Video Editor / Graphic Designer
+            {roles.map((role, i) => (
+              <Fragment key={role}>
+                {i > 0 && " "}
+                <span className="whitespace-nowrap">
+                  {role}
+                  {i < roles.length - 1 && " /"}
+                </span>
+              </Fragment>
+            ))}
           </p>
           <p
             className={cn(
@@ -95,7 +107,7 @@ export function Hero() {
               key={item.href}
               href={item.href}
               className={cn(
-                "group relative flex items-baseline gap-5 md:gap-8 py-6 md:py-8 border-b border-border/20 last:border-b-0 overflow-hidden transition-colors",
+                "group relative flex items-baseline gap-5 md:gap-8 py-4 md:py-[clamp(1rem,3vh,2rem)] border-b border-border/20 last:border-b-0 overflow-hidden transition-colors",
                 isVisible ? "animate-fade-up" : "opacity-0"
               )}
               style={{
@@ -110,7 +122,7 @@ export function Hero() {
 
               <span className="relative h-px w-8 bg-border/60 self-center group-hover:w-16 group-hover:bg-primary transition-all duration-500" />
 
-              <span className="relative font-display text-4xl md:text-6xl lg:text-7xl tracking-wide text-foreground group-hover:text-primary transition-colors">
+              <span className="relative font-display text-3xl md:text-[clamp(2.25rem,min(5vw,8vh),4.5rem)] leading-none tracking-wide text-foreground group-hover:text-primary transition-colors">
                 {item.title}
               </span>
 

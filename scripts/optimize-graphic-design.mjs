@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // One-time / idempotent optimizer for the graphic-design source folder.
 // Reads ../../graphic-design/*.{jpg,pdf}, emits ~2000px WebP into
-// public/graphic-design/, and writes src/app/graphic-design/images.json.
+// public/graphic-design/, and writes src/app/personal-artwork/images.json.
 
 import { readdir, stat, mkdir, writeFile, readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
@@ -14,7 +14,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const SOURCE_DIR = path.resolve(REPO_ROOT, "../../graphic-design");
 const OUT_DIR = path.join(REPO_ROOT, "public/graphic-design");
-const MANIFEST = path.join(REPO_ROOT, "src/app/graphic-design/images.json");
+const MANIFEST = path.join(REPO_ROOT, "src/app/personal-artwork/images.json");
 
 const MAX_EDGE = 2000;
 const WEBP_QUALITY = 82;

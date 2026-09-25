@@ -12,6 +12,7 @@ A dark, cinematic single-page portfolio for Evan Caplan (video editor + graphic 
 | `npm run build` | Production build                                       |
 | `npm run start` | Serve the production build                             |
 | `npm run lint`  | Run ESLint (`eslint-config-next`)                     |
+| `npm run optimize:decks` | Convert the PDF decks in `decks-source/` to slides in `public/decks/` |
 
 There is no test runner configured in this repo. Do not invent a `test` script or assume Jest/Vitest — if you need to verify a change, run `build` and `lint`, and for UI work start `dev` and exercise the feature in a browser.
 
@@ -34,7 +35,8 @@ src/
 │   ├── fonts.ts              # next/font/google: Bebas Neue (display) + Outfit (sans)
 │   ├── globals.css           # Tailwind v4 @theme, cinematic palette, SMPTE colors
 │   ├── about/page.tsx
-│   ├── graphic-design/page.tsx
+│   ├── graphic-design/       # Slide-deck grids; decks.json comes from `npm run optimize:decks`
+│   ├── personal-artwork/     # Masonry gallery; images.json comes from `npm run optimize:graphics`
 │   └── video-projects/page.tsx
 ├── components/
 │   ├── layout/               # Chrome: film-static-header, nav-links, smpte-bars

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Read-only helper: groups images.json entries by filename patterns and
 // prints likely series (2+ members). Does not mutate the manifest — review
-// the output, then hand-edit `seriesId` into src/app/graphic-design/images.json.
+// the output, then hand-edit `seriesId` into src/app/personal-artwork/images.json.
 
 import { readFile } from "node:fs/promises";
 import path from "node:path";
@@ -10,7 +10,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const MANIFEST = path.resolve(
   __dirname,
-  "../src/app/graphic-design/images.json",
+  "../src/app/personal-artwork/images.json",
 );
 
 const SUFFIX = /-(?:v\d+|\d+|final|new|alt|a|b|c)$/i;
@@ -50,6 +50,6 @@ for (const [base, slugs] of series) {
 
 console.log(
   "Review the list above, then add `\"seriesId\": \"<base>\"` to the relevant\n" +
-    "entries in src/app/graphic-design/images.json. Entries without seriesId\n" +
+    "entries in src/app/personal-artwork/images.json. Entries without seriesId\n" +
     "render as individual tiles.",
 );

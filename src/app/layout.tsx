@@ -6,9 +6,9 @@ import { SmpteBars } from "@/components/layout/smpte-bars";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Evan Caplan — Video Editor & Graphic Designer",
+  title: "Evan Caplan — Graphic Designer, Illustrator & Video Editor",
   description:
-    "Portfolio of Evan Caplan — video editor and graphic designer with 4+ years of experience in cinematic storytelling and visual design.",
+    "Portfolio of Evan Caplan — graphic designer, illustrator, and video editor with 4+ years of experience in visual design and cinematic storytelling.",
 };
 
 export default function RootLayout({

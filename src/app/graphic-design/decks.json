@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "campaigns",
+    "title": "Campaigns",
+    "decks": [
+      {
+        "slug": "sapporo-god-bless-japan",
+        "title": "Sapporo — God Bless Japan",
+        "cover": {
+          "src": "/decks/sapporo-god-bless-japan/01.webp",
+          "width": 2000,
+          "height": 1125,
+          "blurDataURL": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACwAQCdASoMAAcAA4BaJZwAAu18ORYAAP738EsLxXn8VYsdu4TFwAAA"
+        },
+        "slides": [
+          {
+            "type": "image",
+            "src": "/decks/sapporo-god-bless-japan/01.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/sapporo-god-bless-japan/02.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/sapporo-god-bless-japan/03.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/sapporo-god-bless-japan/04.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/sapporo-god-bless-japan/05.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/sapporo-god-bless-japan/06.webp",
+            "width": 2000,
+            "height": 1125
+          }
+        ]
+      },
+      {
+        "slug": "rewind",
+        "title": "Rewind",
+        "cover": {
+          "src": "/decks/rewind/01.webp",
+          "width": 2000,
+          "height": 1125,
+          "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoMAAcAA4BaJbAC7AD1PB4EAP6YV2d+paOgt3zH/iP5w2LmKbGVK37G1tuNH7/qdKZ4JwDEUIAAAA=="
+        },
+        "slides": [
+          {
+            "type": "image",
+            "src": "/decks/rewind/01.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/rewind/02.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/rewind/03.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/rewind/04.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/rewind/05.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/rewind/06.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/rewind/07.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/rewind/08.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/rewind/09.webp",
+            "width": 2000,
+            "height": 1125
+          }
+        ]
+      },
+      {
+        "slug": "converse-no-label-needed",
+        "title": "Converse — No Label Needed",
+        "cover": {
+          "src": "/decks/converse-no-label-needed/01.webp",
+          "width": 2000,
+          "height": 1125,
+          "blurDataURL": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoMAAcAA4BaJaQAAud/eHAAAP75x4nhHR7Cd3fgMzMXSoAAAAA="
+        },
+        "slides": [
+          {
+            "type": "image",
+            "src": "/decks/converse-no-label-needed/01.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/converse-no-label-needed/02.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/converse-no-label-needed/03.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/converse-no-label-needed/04.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/converse-no-label-needed/05.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/converse-no-label-needed/06.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/converse-no-label-needed/07.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/converse-no-label-needed/08.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/converse-no-label-needed/09.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/converse-no-label-needed/10.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/converse-no-label-needed/11.webp",
+            "width": 2000,
+            "height": 1125
+          }
+        ]
+      },
+      {
+        "slug": "golflefleur-frenchwaltz",
+        "title": "Golf le Fleur — French Waltz",
+        "cover": {
+          "src": "/decks/golflefleur-frenchwaltz/01.webp",
+          "width": 2000,
+          "height": 1124,
+          "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoMAAcAA4BaJZQCdAELZNpQTAAA/vfwnwMKaCzHtlwdRmIQBYB6OlD2SIAAAA=="
+        },
+        "slides": [
+          {
+            "type": "image",
+            "src": "/decks/golflefleur-frenchwaltz/01.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/golflefleur-frenchwaltz/02.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/golflefleur-frenchwaltz/03.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/golflefleur-frenchwaltz/04.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/golflefleur-frenchwaltz/05.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/golflefleur-frenchwaltz/06.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/golflefleur-frenchwaltz/07.webp",
+            "width": 2000,
+            "height": 1124
+          }
+        ]
+      },
+      {
+        "slug": "the-naked-bronco",
+        "title": "The Naked Bronco",
+        "cover": {
+          "src": "/decks/the-naked-bronco/01.webp",
+          "width": 2000,
+          "height": 1124,
+          "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoMAAcAA4BaJZQCdAYoBjtxmAD+9SP/rpSCTw3qG61pqbH2+EK1/DEOSO4SHuV7k7y8RQAA"
+        },
+        "slides": [
+          {
+            "type": "image",
+            "src": "/decks/the-naked-bronco/01.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/the-naked-bronco/02.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/the-naked-bronco/03.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/the-naked-bronco/04.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/the-naked-bronco/05.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/the-naked-bronco/06.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/the-naked-bronco/07.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/the-naked-bronco/08.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/the-naked-bronco/09.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/the-naked-bronco/10.webp",
+            "width": 2000,
+            "height": 1124
+          }
+        ]
+      },
+      {
+        "slug": "nsac-prez-final",
+        "title": "NSAC × NFL — Team 519",
+        "cover": {
+          "src": "/decks/nsac-prez-final/01.webp",
+          "width": 2000,
+          "height": 1124,
+          "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoMAAcAA4BaJaQAAvcfxp1AAP7wpy87vmGDVZ5vLqI4T0KLUeER+3CCvRtykyDhqS/KHbDsd3eAAAAA"
+        },
+        "slides": [
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/01.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/02.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/03.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/04.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/05.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/06.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/07.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/08.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/09.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/10.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/11.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/12.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/13.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/14.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/15.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/16.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/17.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/18.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/19.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/20.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/21.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/22.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/23.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/24.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/25.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/26.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/27.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/28.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/29.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/30.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/31.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/32.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/33.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/34.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/35.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/36.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/37.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/38.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/39.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/40.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/41.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/42.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/43.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/44.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/45.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/46.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/47.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/48.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/49.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/50.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/51.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/52.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/53.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/54.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/55.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/56.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/57.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/58.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/59.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/60.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/61.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/62.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/63.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/64.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/65.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/66.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/67.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/68.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/69.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/70.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/71.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/72.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/73.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/74.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/75.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/76.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/77.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/78.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/79.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/80.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/81.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/82.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/83.webp",
+            "width": 2000,
+            "height": 1124
+          },
+          {
+            "type": "image",
+            "src": "/decks/nsac-prez-final/84.webp",
+            "width": 2000,
+            "height": 1124
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "illustration",
+    "title": "Illustration",
+    "decks": [
+      {
+        "slug": "f-ck-fast-fashion-typography-poster",
+        "title": "Bethany Williams — Typography Poster",
+        "cover": {
+          "src": "/decks/f-ck-fast-fashion-typography-poster/01.webp",
+          "width": 2000,
+          "height": 1125,
+          "blurDataURL": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAAAwAQCdASoMAAcAA4BaJaQAA3AA/vXDiqD0+lm+40f7RicmiOgAAA=="
+        },
+        "slides": [
+          {
+            "type": "image",
+            "src": "/decks/f-ck-fast-fashion-typography-poster/01.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/f-ck-fast-fashion-typography-poster/02.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/f-ck-fast-fashion-typography-poster/03.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/f-ck-fast-fashion-typography-poster/04.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/f-ck-fast-fashion-typography-poster/05.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/f-ck-fast-fashion-typography-poster/06.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/f-ck-fast-fashion-typography-poster/07.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "video",
+            "src": "/decks/f-ck-fast-fashion-typography-poster/08.mp4",
+            "poster": "/decks/f-ck-fast-fashion-typography-poster/08-poster.webp",
+            "width": 1072,
+            "height": 1440
+          }
+        ]
+      },
+      {
+        "slug": "stamp-design-series",
+        "title": "Hand Drawn Stamp Design Series",
+        "cover": {
+          "src": "/decks/stamp-design-series/01.webp",
+          "width": 2000,
+          "height": 1125,
+          "blurDataURL": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAAAwAQCdASoMAAcAA4BaJaQAA3AA/vXDjrdQCWEv8u+3iZ6HQoTAAA=="
+        },
+        "slides": [
+          {
+            "type": "image",
+            "src": "/decks/stamp-design-series/01.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/stamp-design-series/02.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/stamp-design-series/03.webp",
+            "width": 2000,
+            "height": 1125
+          },
+          {
+            "type": "image",
+            "src": "/decks/stamp-design-series/04.webp",
+            "width": 2000,
+            "height": 1125
+          }
+        ]
+      },
+      {
+        "slug": "the-vineyard-bookcover-final",
+        "title": "The Vineyard — Book Cover",
+        "cover": {
+          "src": "/decks/the-vineyard-bookcover-final/01.webp",
+          "width": 1333,
+          "height": 2000,
+          "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoIAAwAA4BaJbACdAELVwCAotegAP66DgUQ9MVJsym3psh03jlydfGLDIdM9w1CoBKmx5nx3QdlGk2yLU6jFmKKGr/QJXwLQPukGDdcx7Thi3wA"
+        },
+        "slides": [
+          {
+            "type": "image",
+            "src": "/decks/the-vineyard-bookcover-final/01.webp",
+            "width": 1333,
+            "height": 2000
+          },
+          {
+            "type": "image",
+            "src": "/decks/the-vineyard-bookcover-final/02.webp",
+            "width": 113,
+            "height": 2000
+          },
+          {
+            "type": "image",
+            "src": "/decks/the-vineyard-bookcover-final/03.webp",
+            "width": 1333,
+            "height": 2000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "label-design",
+    "title": "Label Design",
+    "decks": [
+      {
+        "slug": "peakpeps-label-design",
+        "title": "PeakPeps",
+        "cover": {
+          "src": "/decks/peakpeps-label-design/01.webp",
+          "width": 2000,
+          "height": 1450,
+          "blurDataURL": "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoMAAkAA4BaJaQAA3AA/vUIAAA="
+        },
+        "slides": [
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/01.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/02.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/03.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/04.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/05.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/06.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/07.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/08.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/09.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/10.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/11.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/12.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/13.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/14.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/15.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/16.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/17.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/18.webp",
+            "width": 2000,
+            "height": 1450
+          },
+          {
+            "type": "image",
+            "src": "/decks/peakpeps-label-design/19.webp",
+            "width": 2000,
+            "height": 1450
+          }
+        ]
+      }
+    ]
+  }
+]

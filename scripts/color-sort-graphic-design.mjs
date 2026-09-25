@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Reorders src/app/graphic-design/images.json so the grid alternates
+// Reorders src/app/personal-artwork/images.json so the grid alternates
 // color chunks and black-and-white chunks as you scroll down the page,
 // with a smooth color gradient preserved within the color chunks.
 //
@@ -18,7 +18,7 @@ import sharp from "sharp";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
-const MANIFEST = path.join(REPO_ROOT, "src/app/graphic-design/images.json");
+const MANIFEST = path.join(REPO_ROOT, "src/app/personal-artwork/images.json");
 const PUBLIC_DIR = path.join(REPO_ROOT, "public");
 
 const SAMPLE_EDGE = 16; // 16x16 = 256 pixel samples per image
